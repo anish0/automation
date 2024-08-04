@@ -12,3 +12,4 @@ def before_scenario(context, driver):
 
 def after_scenario(context, driver):
     context.driver.quit()
+    print("hello")
